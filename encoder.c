@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
 	bcg729EncoderChannelContextStruct *codec = initBcg729EncoderChannel();
 
 	printf("TINYBCG729\n");
-	printf("8000 bit/s G729 encoder\n\n");
+	printf("8000 bit/s G.729 encoder\n\n");
 
 	while(fread(inbuf, 2, SAMPLES_PER_FRAME, fin) == SAMPLES_PER_FRAME) {
 		printf("frames encoded: %d\r", i);
