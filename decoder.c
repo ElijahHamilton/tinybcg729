@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
 	if (argc < 3) {
 		printf("usage: ./decoder encoded.bin output.raw\n");
 		printf("input should be 8000 bit/s encoded audio\n");
-		printf("output is signed 16-bit, mono, 8khz. (raw audio)");
+		printf("output is signed 16-bit, mono, 8khz. (raw audio)\n");
 		return -1;
 	}
 
