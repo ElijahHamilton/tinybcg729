@@ -32,5 +32,6 @@ int main(int argc, char *argv[]) {
 		fwrite(encbuf, BYTES_PER_FRAME, 1, fout);
 		i++;
 	}
+	printf("\n\nencoding complete.\n");
 	return 0;
 }
