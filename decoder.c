@@ -32,5 +32,6 @@ int main(int argc, char *argv[]) {
 		fwrite(outbuf, 2, SAMPLES_PER_FRAME, fout);
 		i++;
 	}
+	printf("\n\ndecoding complete.\n");
 	return 0;
 }
